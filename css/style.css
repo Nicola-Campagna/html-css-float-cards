@@ -18,3 +18,47 @@ img{
     clear: both;
     display: table;
 }
+
+a{
+    text-decoration: none;
+    color: #49A5D0;
+    font-size: 13px;
+}
+/* CONTENITORE */
+.conteiner{
+    max-width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+} 
+
+.conteiner:nth-child(2){
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #E53170;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* SEZIONE CARDS */
+.profile{
+    float: left;
+    text-align: left;
+    width: calc( 1200px / 3 - 40px);
+    margin: 30px 10px 0 10px;  /*DUBBIO*/
+    background-color: #0F0E17;
+    color: white;   
+}
+
+.profile img{
+    width: 80px;
+    float: left;
+    margin-right: 5px;
+}
+
+.profile h3{
+    font-size: 13px;
+    margin: 5px 0;
+
+}
